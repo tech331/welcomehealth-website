@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" fill="#2a2a2a" />
+  <defs>
+    <linearGradient
+      id="w-grad"
+      x1="8"
+      y1="6"
+      x2="24"
+      y2="26"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="30%" stop-color="#1a7a52" />
+      <stop offset="100%" stop-color="#d4d4d4" />
+    </linearGradient>
+  </defs>
+  <text
+    x="16"
+    y="23"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="21"
+    font-style="italic"
+    font-weight="400"
+    fill="url(#w-grad)"
+  >
+    W
+  </text>
+</svg>
