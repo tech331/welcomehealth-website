@@ -15,7 +15,7 @@ export default function BookADemoPage() {
       <div className="px-6 py-12 md:px-12 md:py-16 lg:px-16 xl:px-[20vw]">
         <div className="mx-auto grid max-w-6xl grid-cols-1 items-start gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="lg:pt-8">
-            <p className="font-sans text-sm font-medium uppercase tracking-[0.12em] text-[#1a7a52]">
+            <p className="font-sans text-sm font-medium uppercase tracking-[0.12em] text-[#1e9b6e]">
               Book a Demo
             </p>
             <h1 className="mt-4 font-sans text-4xl font-semibold tracking-tight md:text-5xl lg:text-[3.25rem] lg:leading-tight">

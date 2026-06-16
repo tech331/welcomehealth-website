@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans, Source_Serif_4 } from "next/font/google";
+import { Inter, Plus_Jakarta_Sans, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
 
 const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -26,7 +31,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${plusJakarta.variable} ${sourceSerif.variable} h-full antialiased`}
+      className={`${inter.variable} ${plusJakarta.variable} ${sourceSerif.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-[#faf8f5] font-sans text-[#2a2a2a]">
         {children}

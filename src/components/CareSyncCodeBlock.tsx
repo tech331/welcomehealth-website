@@ -58,7 +58,7 @@ export default function CareSyncCodeBlock() {
               <div
                 key={line}
                 className={`code-line -mx-2 flex items-start gap-4 rounded-md px-2 py-0.5 transition-colors duration-500 ${
-                  isHighlighted ? "bg-[#1a7a52]/25" : ""
+                  isHighlighted ? "bg-[#1e9b6e]/25" : ""
                 }`}
               >
                 <code

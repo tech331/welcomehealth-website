@@ -3,17 +3,19 @@
 @theme inline {
   --font-sans: var(--font-plus-jakarta), system-ui, sans-serif;
   --font-serif: var(--font-source-serif), Georgia, serif;
-  --color-green-700: #1a7a52;
+  --font-inter: var(--font-inter), system-ui, sans-serif;
+  --color-green-700: #1e9b6e;
   --color-grey-300: #d4d4d4;
 }
 
 :root {
-  --green-700: #1a7a52;
+  --green-700: #1e9b6e;
+  --green-800: #178a5f;
   --grey-300: #d4d4d4;
 }
 
-body {
-  margin: 0;
+.font-inter {
+  font-family: var(--font-inter), system-ui, sans-serif;
 }
 
 .hero-gradient {

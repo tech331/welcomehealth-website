@@ -49,11 +49,11 @@ function TabPreview({ label }: { label: string }) {
       className="flex aspect-[4/3] w-full items-center justify-center rounded-xl border border-[#e0dcd3] bg-[#ebe6dc] shadow-[0_12px_32px_-16px_rgba(0,0,0,0.2)]"
     >
       <div className="text-center">
-        <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-lg bg-[#1a7a52]/15">
+        <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-lg bg-[#1e9b6e]/15">
           <svg
             viewBox="0 0 24 24"
             fill="none"
-            className="h-6 w-6 text-[#1a7a52]"
+            className="h-6 w-6 text-[#1e9b6e]"
             aria-hidden="true"
           >
             <rect x="3" y="4" width="18" height="14" rx="2" stroke="currentColor" strokeWidth="1.5" />
@@ -100,7 +100,7 @@ export default function ProductTabs() {
             >
               {tab.label}
               {isActive && (
-                <span className="absolute bottom-0 left-0 h-0.5 w-full bg-[#1a7a52]" />
+                <span className="absolute bottom-0 left-0 h-0.5 w-full bg-[#1e9b6e]" />
               )}
             </button>
           );

@@ -82,15 +82,15 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#2a2a2a] text-[#f5f5f5]">
+    <footer className="border-t border-[#ebe8e3] bg-[#faf8f5] text-[#2a2a2a]">
       <div className="px-6 py-16 md:px-12 lg:px-16 xl:px-[20vw]">
         <div className="flex flex-col gap-12 lg:flex-row lg:justify-between">
           <div className="max-w-xs">
-            <Logo />
-            <p className="mt-4 font-sans text-sm font-light text-[#b8b8b8]">
+            <Logo variant="light" />
+            <p className="mt-4 font-sans text-sm font-light text-[#5c5c5c]">
               Simplifying healthcare data exchange
             </p>
-            <p className="mt-1 font-sans text-sm font-light text-[#b8b8b8]">
+            <p className="mt-1 font-sans text-sm font-light text-[#5c5c5c]">
               Melbourne, Australia
             </p>
           </div>
@@ -98,7 +98,7 @@ export default function Footer() {
           <div className="grid grid-cols-2 gap-10 sm:grid-cols-3 sm:gap-16">
             {columns.map((column) => (
               <div key={column.title}>
-                <h2 className="font-sans text-sm font-semibold text-[#f5f5f5]">
+                <h2 className="font-sans text-sm font-semibold text-[#2a2a2a]">
                   {column.title}
                 </h2>
                 <ul className="mt-4 space-y-3">
@@ -106,11 +106,11 @@ export default function Footer() {
                     <li key={link.label}>
                       <a
                         href={link.href}
-                        className="inline-flex items-center gap-2 font-sans text-sm font-light text-[#b8b8b8] transition-colors hover:text-[#f5f5f5]"
+                        className="inline-flex items-center gap-2 font-sans text-sm font-light text-[#5c5c5c] transition-colors hover:text-[#2a2a2a]"
                       >
                         {link.label}
                         {link.badge && (
-                          <span className="rounded-[3px] bg-[#1a7a52] px-1.5 py-0.5 text-[10px] font-semibold tracking-wide text-white">
+                          <span className="rounded-[3px] bg-[#1e9b6e] px-1.5 py-0.5 text-[10px] font-semibold tracking-wide text-white">
                             {link.badge}
                           </span>
                         )}
@@ -123,8 +123,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 flex flex-col gap-6 border-t border-white/10 pt-8 md:flex-row md:items-center md:justify-between">
-          <p className="font-sans text-sm font-light text-[#b8b8b8]">
+        <div className="mt-16 flex flex-col gap-6 border-t border-[#ebe8e3] pt-8 md:flex-row md:items-center md:justify-between">
+          <p className="font-sans text-sm font-light text-[#5c5c5c]">
             &copy; 2026 Welcome Health. All Rights Reserved.
           </p>
 
@@ -134,7 +134,7 @@ export default function Footer() {
                 key={social.label}
                 href={social.href}
                 aria-label={social.label}
-                className="text-white transition-opacity hover:opacity-70"
+                className="text-[#2a2a2a] transition-opacity hover:opacity-60"
               >
                 {social.icon}
               </a>

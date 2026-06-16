@@ -4,10 +4,10 @@ const pillars = [
   {
     icon: (
       <svg viewBox="0 0 80 80" fill="none" aria-hidden="true" className="h-20 w-20">
-        <circle cx="28" cy="32" r="18" fill="#1a7a52" fillOpacity="0.35" />
+        <circle cx="28" cy="32" r="18" fill="#1e9b6e" fillOpacity="0.35" />
         <circle cx="52" cy="28" r="14" fill="#d4d4d4" fillOpacity="0.5" />
-        <rect x="18" y="48" width="44" height="8" rx="4" fill="#1a7a52" fillOpacity="0.25" />
-        <path d="M36 20v24M28 32h16" stroke="#1a7a52" strokeWidth="2" strokeLinecap="round" />
+        <rect x="18" y="48" width="44" height="8" rx="4" fill="#1e9b6e" fillOpacity="0.25" />
+        <path d="M36 20v24M28 32h16" stroke="#1e9b6e" strokeWidth="2" strokeLinecap="round" />
       </svg>
     ),
     title: "Care teams lose time chasing updates",
@@ -17,7 +17,7 @@ const pillars = [
   {
     icon: (
       <svg viewBox="0 0 80 80" fill="none" aria-hidden="true" className="h-20 w-20">
-        <rect x="14" y="18" width="24" height="32" rx="4" fill="#1a7a52" fillOpacity="0.3" />
+        <rect x="14" y="18" width="24" height="32" rx="4" fill="#1e9b6e" fillOpacity="0.3" />
         <rect x="42" y="26" width="24" height="32" rx="4" fill="#d4d4d4" fillOpacity="0.45" />
         <path d="M38 34h8M38 42h8" stroke="#2a2a2a" strokeWidth="1.5" strokeLinecap="round" strokeOpacity="0.4" />
       </svg>
@@ -32,12 +32,12 @@ const pillars = [
         <circle cx="40" cy="40" r="22" fill="#d4d4d4" fillOpacity="0.35" />
         <path
           d="M28 40h24M40 28v24"
-          stroke="#1a7a52"
+          stroke="#1e9b6e"
           strokeWidth="2.5"
           strokeLinecap="round"
           strokeOpacity="0.6"
         />
-        <circle cx="40" cy="40" r="6" fill="#1a7a52" fillOpacity="0.5" />
+        <circle cx="40" cy="40" r="6" fill="#1e9b6e" fillOpacity="0.5" />
       </svg>
     ),
     title: "Completed work is not captured cleanly",
@@ -47,7 +47,7 @@ const pillars = [
   {
     icon: (
       <svg viewBox="0 0 80 80" fill="none" aria-hidden="true" className="h-20 w-20">
-        <rect x="20" y="16" width="40" height="48" rx="4" fill="#1a7a52" fillOpacity="0.2" />
+        <rect x="20" y="16" width="40" height="48" rx="4" fill="#1e9b6e" fillOpacity="0.2" />
         <path
           d="M28 30h24M28 38h18M28 46h22M28 54h14"
           stroke="#2a2a2a"
@@ -55,7 +55,7 @@ const pillars = [
           strokeLinecap="round"
           strokeOpacity="0.25"
         />
-        <circle cx="56" cy="24" r="10" fill="#1a7a52" fillOpacity="0.4" />
+        <circle cx="56" cy="24" r="10" fill="#1e9b6e" fillOpacity="0.4" />
       </svg>
     ),
     title: "Compliance evidence is scattered",

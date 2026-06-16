@@ -23,7 +23,7 @@ const roleOptions = [
 ];
 
 const inputClasses =
-  "w-full rounded-[3px] border border-[#ddd8cc] bg-white px-4 py-3 font-sans text-sm text-[#2a2a2a] placeholder:text-[#8a8578] focus:border-[#1a7a52] focus:outline-none focus:ring-1 focus:ring-[#1a7a52]";
+  "w-full rounded-[3px] border border-[#ddd8cc] bg-white px-4 py-3 font-sans text-sm text-[#2a2a2a] placeholder:text-[#8a8578] focus:border-[#1e9b6e] focus:outline-none focus:ring-1 focus:ring-[#1e9b6e]";
 
 const labelClasses = "mb-2 block font-sans text-sm font-medium text-[#2a2a2a]";
 
@@ -146,7 +146,7 @@ export default function BookDemoForm() {
 
       <button
         type="submit"
-        className="mt-8 w-full rounded-[3px] bg-[#1a7a52] px-8 py-4 text-sm font-medium tracking-[0.1em] text-white transition-colors hover:bg-[#156644]"
+        className="mt-8 w-full rounded-[3px] bg-[#1e9b6e] px-8 py-4 text-sm font-medium tracking-[0.1em] text-white transition-colors hover:bg-[#178a5f]"
       >
         Book a demo
       </button>

@@ -11,7 +11,7 @@ export default function Logo({ variant = "dark" }: LogoProps) {
         W
       </span>
       <span
-        className={`font-sans text-base font-medium ${
+        className={`font-inherit text-base font-medium ${
           variant === "dark" ? "text-white" : "text-[#2a2a2a]"
         }`}
       >

@@ -30,12 +30,12 @@ export default function FitSection() {
               <li key={item} className="flex items-start gap-3">
                 <span
                   aria-hidden="true"
-                  className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#1a7a52]/15"
+                  className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#1e9b6e]/15"
                 >
                   <svg
                     viewBox="0 0 12 12"
                     fill="none"
-                    className="h-3 w-3 text-[#1a7a52]"
+                    className="h-3 w-3 text-[#1e9b6e]"
                     aria-hidden="true"
                   >
                     <path
