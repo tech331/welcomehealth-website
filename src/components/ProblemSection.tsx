@@ -1,3 +1,5 @@
+import CtaButton from "@/components/CtaButton";
+
 const pillars = [
   {
     icon: (
@@ -91,12 +93,9 @@ export default function ProblemSection() {
         </div>
 
         <div className="mt-16 flex justify-center">
-          <button
-            type="button"
-            className="rounded-[3px] bg-[#1a7a52] px-8 py-4 text-sm font-medium tracking-[0.1em] text-white transition-colors hover:bg-[#156644]"
-          >
+          <CtaButton href="/book-a-demo" variant="green">
             Book a demo
-          </button>
+          </CtaButton>
         </div>
       </div>
     </section>

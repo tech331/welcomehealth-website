@@ -20,7 +20,9 @@ export default function Hero() {
             their systems.
           </p>
 
-          <CtaButton className="mt-8">Book a demo</CtaButton>
+          <CtaButton href="/book-a-demo" className="mt-8">
+            Book a demo
+          </CtaButton>
         </div>
       </div>
     </section>

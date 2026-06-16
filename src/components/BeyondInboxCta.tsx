@@ -1,3 +1,5 @@
+import CtaButton from "@/components/CtaButton";
+
 export default function BeyondInboxCta() {
   return (
     <section className="bg-white text-[#2a2a2a]">
@@ -15,12 +17,9 @@ export default function BeyondInboxCta() {
             records.
           </p>
           <div className="mt-8 flex justify-center">
-            <button
-              type="button"
-              className="rounded-[3px] bg-[#1a7a52] px-8 py-4 text-sm font-medium tracking-[0.1em] text-white transition-colors hover:bg-[#156644]"
-            >
+            <CtaButton href="/book-a-demo" variant="green">
               Book a demo
-            </button>
+            </CtaButton>
           </div>
         </div>
       </div>
