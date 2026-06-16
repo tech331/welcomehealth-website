@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function BookADemoPage() {
   return (
-    <div className="min-h-dvh bg-[#f3efe6] text-[#2a2a2a]">
+    <div className="min-h-dvh bg-[#faf8f5] text-[#2a2a2a]">
       <Navbar variant="light" showCta={false} />
 
       <div className="px-6 py-12 md:px-12 md:py-16 lg:px-16 xl:px-[20vw]">

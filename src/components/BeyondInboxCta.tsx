@@ -4,7 +4,7 @@ export default function BeyondInboxCta() {
   return (
     <section className="bg-white text-[#2a2a2a]">
       <div className="px-6 pb-20 md:px-12 md:pb-24 lg:px-16 xl:px-[20vw]">
-        <div className="mx-auto max-w-4xl rounded-lg bg-[#f3efe6] px-8 py-14 text-center md:px-12 md:py-16">
+        <div className="mx-auto max-w-4xl rounded-lg bg-[#faf8f5] px-8 py-14 text-center md:px-12 md:py-16">
           <h2 className="font-sans text-3xl font-semibold tracking-tight md:text-4xl">
             Move beyond the inbox
           </h2>

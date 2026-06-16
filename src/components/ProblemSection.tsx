@@ -66,7 +66,7 @@ const pillars = [
 
 export default function ProblemSection() {
   return (
-    <section className="bg-[#f3efe6] text-[#2a2a2a]">
+    <section className="bg-[#faf8f5] text-[#2a2a2a]">
       <div className="px-6 py-20 md:px-12 md:py-24 lg:px-16 xl:px-[20vw]">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-sans text-3xl font-semibold tracking-tight md:text-4xl lg:text-[2.5rem] lg:leading-tight">
